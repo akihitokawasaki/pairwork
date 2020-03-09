@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 980px;
+  margin: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*トップメニューを右へ*/
+ul.top_menu {
+  float: right;
+}
+/*問合せ画像の大きさ*/
+.image_area{
+  width: 100%;
+}
+/*サイドメニュー*/
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+  /*追記*/
+  margin-top: 10px;
+}
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+/*上記sidemenu問合せ部分色が薄ピンクだがスルー*/
+/*サイドメニューの大きさ*/
+.side_menu{
+  width: 300px;
+  float: left;
+}
+.content{
+  float: left;
+  height: 200px;
+  /*色消し*/
+  background-color: ;
+}
+/*不要か？
+.wrapper{
+  margin-top: 10px;
+}不要だったので消し*/
+
+/* テンプレ */
+
+/*  <table> の中のセルが境界線を共有させるします */
+.main  {
+   vertical-align:  middle; 
+}
+
+/* formのフォントサイズを設定します */
+.main .form .contact {
+
+}
+/* テーブルの高さを設定します */
+.main .form .contact tr {
+  height: 7rem;
+}
+/* テーブルの幅を設定します */
+.main .form .contact tr th {
+  width: 150px
+}
+/* 入力フォームの幅を設定します */
+.main .form .contact tr td input[type="text"], .main .form .contact tr td textarea {
+  width: 480px;
+}
+/* ラジオボタンと「男」の幅を設定します */
+.main .form .contact tr td .label {
+
+
+}
+/* ラジオボタンと「女」の幅を設定します */
+.main .form .contact tr td .label:first-of-type {
+}
+/* 送信ボタンを中央寄せに設定します */
+.main .form p {
+  text-align: center;
+}
+/* 送信ボタンのカラーと「カーソルを合わせると透明になる」を設定します */
+.main .form p input[type="submit"] :hover{
+  opacity: 0.5;
+  background-color: skyblue;
+
+}
+.footer{
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  line-height:100px;
+}
+/* tablep追加 */
+.table p {
+  position: ;
+}
+/*  */
+.btn{
+  border-radius: 5px;
+  background-color: skyblue;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: ;
+
+}
+.btn:hover {
+
+}
